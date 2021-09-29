@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat') */
+
+:root{
+    --primaryYellow: #F5E050;
+    --blue: #0A75BC;
+    --BLACK: #231F20;
+}
+body{
+    text-align:center;    
+    font-family: 'Montserrat', sans-serif;
+    
+    background-image:  url(https://wallpaperaccess.com/full/192381.jpg);
+   
+    background-repeat: no-repeat;
+    background-position: center;
+background-size: contain;
+
+height: 100%;
+
+
+}
+#photo{
+    /* width: 200px;
+    height: 500px; */
+}
+
+#header{
+    background-image: linear-gradient(to left,var(--primaryYellow), var(--blue),var(--primaryYellow));
+
+background-size: contain;
+width: 100%;
+    /* url(https://c4.wallpaperflare.com/wallpaper/738/614/349/minions-wallpaper-preview.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: aliceblue;
+   padding: 20px; 
+   font-size: 50px;
+   font-weight: 500;
+
+}
+#content{
+    display: block;
+    margin: 100px auto ;
+    height: 100px;
+    width: 700px;
+    text-align: center;
+    border: .1rem solid; 
+
+}
+#btn-translate{
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    background :transparent;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+#output-box{
+    border: .1rem solid var(--BLACK);
+    margin: 100px auto ;
+    height: 100px;
+    width: 700px;
+    font-size: 25px;
+    color: var(--primaryYellow);
+    padding: 20px auto;
+    text-align: center;
+display: block;
+}
